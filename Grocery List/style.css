@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Handjet', cursive;
+    background: rgb(203, 86, 13);
+}
+
+.container{
+    border:1px solid black;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.groceries{
+    border: 1px solid rgb(91, 209, 17);
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.groceries h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries i{
+    font-size: 2rem;
+    color: orange;
+}
+
+.groceries input{
+    font-family: 'Handjet', cursive;
+    outline: 0;
+    border: 0;
+    border-bottom: 3px;
+    width: 70%;
+    border-bottom: 3px solid black;
+    font-size: 1.5rem;
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
